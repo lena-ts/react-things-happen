@@ -1,0 +1,44 @@
+.add-thing-catalog {
+  position: absolute;
+  top: calc(100% + 150px);
+  left: 0;
+  width: 100%;
+  height: calc(100% + 150px);
+  background: white;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  transition: 0.2s;
+  z-index: 3;
+  overflow-x: scroll;
+
+  &.visible {
+    top: 0;
+    display: block;
+  }
+}
+
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 0;
+  background: black;
+}
+
+.catalog-image-holder {
+  width: 33.33333%;
+  cursor: pointer;
+
+  img {
+    width: 100%;
+    height: auto;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    transition: 0.2s;
+  }
+
+  &:hover {
+    img {
+      opacity: 0.6;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.DayPicker,
+.DayPicker-wrapper,
+.DayPicker-Month
+{
+  width: 100%;
+}
+
+//.DayPicker-WeekdaysRow {
+//  text-transform: uppercase;
+//}
+
+//Day
+.DayPicker-Day {
+  outline: none;
+  padding: 1em 0.5em !important;
+
+  &--today {
+    color: $primary-color !important;
+  }
+
+  &--selected {
+    background-color: $primary-color !important;
+    color: white !important;
+  }
+
+  &:hover {
+    background:rgba(234, 69, 71, 0.1) !important;
+  }
+}
+
+.DayPicker-Day--outside {
+  opacity: 0;
+}
+
+.DayPicker-NavButton {
+  outline: none;
+}
