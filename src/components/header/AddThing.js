@@ -6,7 +6,7 @@ const AddThingButton = (handleClick) => {
     }
     return(
         <button className="addthing-button" onClick={handleButtonClick}>
-            +
+            <span>+</span>
         </button>
     )
 }

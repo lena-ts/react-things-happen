@@ -30,7 +30,7 @@ header {
   position: relative;
   width: 46px;
   height: 46px;
-  line-height: 42px;
+  line-height: 46px;
   background: $primary-color;
   border-radius: 100%;
   color: white;
@@ -58,6 +58,25 @@ header {
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: ease;
+  }
+
+  span {
+    display: block;
+    margin-top: -4px;
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio:0)
+  and (min-resolution:.001dpcm) {
+    span {
+      margin-top: 0;
+    }
+  }
+
+  @-moz-document url-prefix() {
+   span {
+      display: block;
+     margin-top: -4px;
+    }
   }
 
 }

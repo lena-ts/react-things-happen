@@ -1,8 +1,11 @@
 .DayPicker,
-.DayPicker-wrapper,
-.DayPicker-Month
+.DayPicker-wrapper
 {
   width: 100%;
+}
+
+.DayPicker-Month{
+  width: calc(100% - 30px);
 }
 
 //.DayPicker-WeekdaysRow {

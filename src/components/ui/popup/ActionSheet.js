@@ -21,7 +21,7 @@ const ActionSheet = ({isVisible, catalogText, buttonText, cancelPopup, doCatalog
                     <div className="ui-popup-body__option">
                         <button onClick={handleCatalog}>{catalogText}</button>
                     </div>
-                    <div className="ui-popup-body__option">
+                    <div className="ui-popup-body__option file-option">
                         <input type="file" accept="image/*" name="image" onChange={handleUpload} />
                     </div>
                 </div>
