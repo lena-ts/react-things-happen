@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0e801f506ed6ad07360a49c804562b74",
+    "revision": "6642bf92f43eb396e1ac43a08035028e",
     "url": "/react-things-happen/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-things-happen/static/css/2.c6231af7.chunk.css"
   },
   {
-    "revision": "2a4fdc00b6e68b71be32",
-    "url": "/react-things-happen/static/css/main.3f1fa1b5.chunk.css"
+    "revision": "37e04f025830ba49fd2a",
+    "url": "/react-things-happen/static/css/main.18bb91b6.chunk.css"
   },
   {
     "revision": "2eb415cd4a4c205bafc4",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-things-happen/static/js/2.7eec2ec7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2a4fdc00b6e68b71be32",
-    "url": "/react-things-happen/static/js/main.38a251c2.chunk.js"
+    "revision": "37e04f025830ba49fd2a",
+    "url": "/react-things-happen/static/js/main.a628e59f.chunk.js"
   },
   {
     "revision": "b5bd33e12db95b41ac48",
