@@ -7,7 +7,6 @@
 .DayPicker-Month{
   width: calc(100% - 30px);
 }
-
 //.DayPicker-WeekdaysRow {
 //  text-transform: uppercase;
 //}
@@ -16,6 +15,7 @@
 .DayPicker-Day {
   outline: none;
   padding: 1em 0.5em !important;
+  width: 50px;
 
   &--today {
     color: $primary-color !important;

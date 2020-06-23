@@ -1,4 +1,6 @@
 @import 'variables/_variables';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
 body {
   background: #ebebeb;
   //background: #ffcac4;
@@ -24,6 +26,10 @@ body {
   font-weight: bold;
   margin-top: 80px;
 }
+
+.intro-text .h1 {
+    font-family: "Poppins", sans-serif;
+  }
 
 .intro-button {
   line-height: 0;
