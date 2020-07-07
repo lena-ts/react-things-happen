@@ -16,7 +16,7 @@ const Intro = () => {
             <Titles />
             <div className="h2">Track things you do.</div>
             <div className="intro-button">
-                <a href="#">
+                <a href="https://apps.apple.com/app/things-happen-life-tracker/id1512430864">
                     <img src={appstoreImage} alt="Download on the appstore" />
                 </a>
             </div>
